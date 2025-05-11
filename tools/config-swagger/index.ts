@@ -1,0 +1,1 @@
+export { withSwaggerConfig } from './src/withSwaggerConfig';
