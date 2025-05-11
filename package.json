@@ -6,6 +6,7 @@
     "build": "turbo run build",
     "start": "turbo run start:dev --parallel",
     "start:main": "turbo run start:dev --filter @main",
+    "start:service": "turbo run start:dev --filter @apps/service",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
